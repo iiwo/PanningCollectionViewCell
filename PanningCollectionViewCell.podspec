@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "PanningTableViewCell"
+  s.name         = "PanningcollectionViewCell"
   s.version      = "0.0.3"
   s.summary      = "HHPanningTableViewCell by Pierre Bernard - Swipe to reveal. modified to work with CollectionView"
   s.description  = <<-DESC
