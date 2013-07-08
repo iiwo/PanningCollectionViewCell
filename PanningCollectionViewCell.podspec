@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.author       = 'Pierre Bernard (modified by iiwo)'
-  s.source       = { :git => "https://github.com/iiwo/PanningCollectionViewCell.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/iiwo/PanningCollectionViewCell.git"}
   s.platform     = :ios, '5.0'
   s.source_files = 'Classes', 'HHPanningCollectionViewCell/**/*.{h,m}'
   s.public_header_files = 'HHPanningCollectionViewCell/**/*.h'
