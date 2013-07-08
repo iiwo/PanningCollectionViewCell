@@ -24,6 +24,13 @@
 		0C45D379178B1EB000A7CD39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C45D351178B1EB000A7CD39 /* Foundation.framework */; };
 		0C45D381178B1EB000A7CD39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C45D37F178B1EB000A7CD39 /* InfoPlist.strings */; };
 		0C45D384178B1EB000A7CD39 /* PanningCollection_ViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C45D383178B1EB000A7CD39 /* PanningCollection_ViewCellTests.m */; };
+		0C45D394178B1F4300A7CD39 /* HHDirectionPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C45D38F178B1F4300A7CD39 /* HHDirectionPanGestureRecognizer.m */; };
+		0C45D395178B1F4300A7CD39 /* HHInnerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C45D391178B1F4300A7CD39 /* HHInnerShadowView.m */; };
+		0C45D396178B1F4300A7CD39 /* HHPanningCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C45D393178B1F4300A7CD39 /* HHPanningCollectionViewCell.m */; };
+		0C45D399178B1FB600A7CD39 /* T20CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C45D398178B1FB600A7CD39 /* T20CollectionViewController.m */; };
+		0C45D39B178B3B9900A7CD39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C45D39A178B3B9900A7CD39 /* QuartzCore.framework */; };
+		0C45D39E178B41E200A7CD39 /* dark_dotted.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C45D39C178B41E200A7CD39 /* dark_dotted.png */; };
+		0C45D39F178B41E200A7CD39 /* dark_dotted@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C45D39D178B41E200A7CD39 /* dark_dotted@2X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,17 @@
 		0C45D380178B1EB000A7CD39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C45D382178B1EB000A7CD39 /* PanningCollection_ViewCellTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanningCollection_ViewCellTests.h; sourceTree = "<group>"; };
 		0C45D383178B1EB000A7CD39 /* PanningCollection_ViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanningCollection_ViewCellTests.m; sourceTree = "<group>"; };
+		0C45D38E178B1F4300A7CD39 /* HHDirectionPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDirectionPanGestureRecognizer.h; sourceTree = "<group>"; };
+		0C45D38F178B1F4300A7CD39 /* HHDirectionPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDirectionPanGestureRecognizer.m; sourceTree = "<group>"; };
+		0C45D390178B1F4300A7CD39 /* HHInnerShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHInnerShadowView.h; sourceTree = "<group>"; };
+		0C45D391178B1F4300A7CD39 /* HHInnerShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHInnerShadowView.m; sourceTree = "<group>"; };
+		0C45D392178B1F4300A7CD39 /* HHPanningCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPanningCollectionViewCell.h; sourceTree = "<group>"; };
+		0C45D393178B1F4300A7CD39 /* HHPanningCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPanningCollectionViewCell.m; sourceTree = "<group>"; };
+		0C45D397178B1FB600A7CD39 /* T20CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T20CollectionViewController.h; sourceTree = "<group>"; };
+		0C45D398178B1FB600A7CD39 /* T20CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T20CollectionViewController.m; sourceTree = "<group>"; };
+		0C45D39A178B3B9900A7CD39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0C45D39C178B41E200A7CD39 /* dark_dotted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dark_dotted.png; path = "../../HHPanningTableViewCell/Demo App/dark_dotted.png"; sourceTree = "<group>"; };
+		0C45D39D178B41E200A7CD39 /* dark_dotted@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark_dotted@2X.png"; path = "../../HHPanningTableViewCell/Demo App/dark_dotted@2X.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C45D39B178B3B9900A7CD39 /* QuartzCore.framework in Frameworks */,
 				0C45D350178B1EB000A7CD39 /* UIKit.framework in Frameworks */,
 				0C45D352178B1EB000A7CD39 /* Foundation.framework in Frameworks */,
 				0C45D354178B1EB000A7CD39 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +108,7 @@
 		0C45D343178B1EB000A7CD39 = {
 			isa = PBXGroup;
 			children = (
+				0C45D39A178B3B9900A7CD39 /* QuartzCore.framework */,
 				0C45D355178B1EB000A7CD39 /* PanningCollectionViewCell */,
 				0C45D37C178B1EB000A7CD39 /* PanningCollectionViewCellTests */,
 				0C45D34E178B1EB000A7CD39 /* Frameworks */,
@@ -119,6 +139,7 @@
 		0C45D355178B1EB000A7CD39 /* PanningCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				0C45D38D178B1F4300A7CD39 /* HHPanningCollectionViewCell */,
 				0C45D35E178B1EB000A7CD39 /* T20AppDelegate.h */,
 				0C45D35F178B1EB000A7CD39 /* T20AppDelegate.m */,
 				0C45D367178B1EB000A7CD39 /* MainStoryboard_iPhone.storyboard */,
@@ -126,6 +147,8 @@
 				0C45D36D178B1EB000A7CD39 /* T20ViewController.h */,
 				0C45D36E178B1EB000A7CD39 /* T20ViewController.m */,
 				0C45D356178B1EB000A7CD39 /* Supporting Files */,
+				0C45D397178B1FB600A7CD39 /* T20CollectionViewController.h */,
+				0C45D398178B1FB600A7CD39 /* T20CollectionViewController.m */,
 			);
 			path = "PanningCollection\U0010ViewCell";
 			sourceTree = "<group>";
@@ -133,6 +156,8 @@
 		0C45D356178B1EB000A7CD39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C45D39C178B41E200A7CD39 /* dark_dotted.png */,
+				0C45D39D178B41E200A7CD39 /* dark_dotted@2X.png */,
 				0C45D357178B1EB000A7CD39 /* PanningCollectionViewCell-Info.plist */,
 				0C45D358178B1EB000A7CD39 /* InfoPlist.strings */,
 				0C45D35B178B1EB000A7CD39 /* main.m */,
@@ -161,6 +186,20 @@
 				0C45D37F178B1EB000A7CD39 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C45D38D178B1F4300A7CD39 /* HHPanningCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0C45D38E178B1F4300A7CD39 /* HHDirectionPanGestureRecognizer.h */,
+				0C45D38F178B1F4300A7CD39 /* HHDirectionPanGestureRecognizer.m */,
+				0C45D390178B1F4300A7CD39 /* HHInnerShadowView.h */,
+				0C45D391178B1F4300A7CD39 /* HHInnerShadowView.m */,
+				0C45D392178B1F4300A7CD39 /* HHPanningCollectionViewCell.h */,
+				0C45D393178B1F4300A7CD39 /* HHPanningCollectionViewCell.m */,
+			);
+			name = HHPanningCollectionViewCell;
+			path = HHPanningTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +280,8 @@
 				0C45D366178B1EB000A7CD39 /* Default-568h@2x.png in Resources */,
 				0C45D369178B1EB000A7CD39 /* MainStoryboard_iPhone.storyboard in Resources */,
 				0C45D36C178B1EB000A7CD39 /* MainStoryboard_iPad.storyboard in Resources */,
+				0C45D39E178B41E200A7CD39 /* dark_dotted.png in Resources */,
+				0C45D39F178B41E200A7CD39 /* dark_dotted@2X.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +319,10 @@
 				0C45D35C178B1EB000A7CD39 /* main.m in Sources */,
 				0C45D360178B1EB000A7CD39 /* T20AppDelegate.m in Sources */,
 				0C45D36F178B1EB000A7CD39 /* T20ViewController.m in Sources */,
+				0C45D394178B1F4300A7CD39 /* HHDirectionPanGestureRecognizer.m in Sources */,
+				0C45D395178B1F4300A7CD39 /* HHInnerShadowView.m in Sources */,
+				0C45D396178B1F4300A7CD39 /* HHPanningCollectionViewCell.m in Sources */,
+				0C45D399178B1FB600A7CD39 /* T20CollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
