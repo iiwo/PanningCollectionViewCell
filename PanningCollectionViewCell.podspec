@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
   s.author       = 'Pierre Bernard (modified by iiwo)'
   s.source       = { :git => "https://github.com/iiwo/PanningCollectionViewCell.git"}
   s.platform     = :ios, '5.0'
-  s.source_files = 'Classes', 'PanningCollectionViewCell/HHPanningTableViewCell/**/*.{h,m}'
-  s.public_header_files = 'PanningCollectionViewCell/HHPanningTableViewCell/**/*.h'
+  s.source_files = 'Classes', 'PanningCollection%10ViewCell/HHPanningTableViewCell/*.{h,m}'
+  s.public_header_files = 'PanningCollection%10ViewCell/HHPanningTableViewCell/*.h'
   s.framework  = 'QuartzCore'
   s.requires_arc = true
 end
